@@ -1,0 +1,39 @@
+<form action="index.html" method="post">
+          
+          <h2>Your basic info</h2>
+          
+          <label for="full-name">Name</label>
+          <input type="text" id="full-name" name="student_name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="student_email">
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="student_password">
+
+
+          <h2>Your profile</h2>
+          
+          <label for="bio">Biography</label>
+          <textarea id="bio" name="student_bio"></textarea>
+
+          <label for="courses">Select Courses</label>
+          <select id="courses" name="student_courses">
+            <optgroup label="Engineering">
+              <option value="computer_engineering">Computer Science Engineering</option>
+              <option value="slectrical_engineering">Electrical Engineering</option>
+              <option value="mechanical_engineering">Mechanical Engineering</option>
+              <option value="civil_engineering">Civil Engineering</option>
+              <option value="chemical_engineering">Chemical Engineering</option>
+            </optgroup>
+            <optgroup label="Management">
+              <option value="finance_management">Finance Management</option>
+              <option value="technology_management">Technology Management</option>
+              <option value="marketing_management">Marketing Management</option>
+              <option value="business_administration">Business Administration</option>
+            </optgroup>
+          </select>
+
+
+        <button type="submit">Submit</button>
+      </form>

@@ -1,0 +1,50 @@
+<form action="/signup" method="POST">
+  <p>
+    <label for="first-name">First name</label>
+    <input type="text" value="first-name" id="first-name">
+  </p>
+  <p>
+    <label for="last-name">Last name</label>
+    <input type="text" value="last_name" id="last-name">
+  </p>
+  <p>
+    <label for="email">Email</label>
+    <input type="email" value="email" id="email">
+  </p>
+  <p>
+    <label for="phone">Phone number</label>
+    <input type="tel" value="phone" id="phone">
+  </p>
+  <p>
+    <label for="password">Password</label>
+    <input type="password" value="password" id="password">
+  </p>
+  <p>
+    <label for="conform-password">Confirm your password</label>
+    <input type="password" value="password_confirm" id="conform-password">
+  </p>
+  <p>
+    <label>Country</label>
+    <select>
+      <option>Canada</option>
+      <option>France</option>
+      <option>Germany</option>
+      <option>Italy</option>
+      <option>Japan</option>
+      <option>Russia</option>
+      <option>United Kingdom</option>
+      <option>United States</option>
+    </select>
+  </p>
+  <p>
+    <label>
+      <input type="checkbox" value="terms">
+      I agree to the <a href="/terms">terms and conditions</a>
+    </label>
+  </p>
+  <p>
+    <button>
+      Sign up
+    </button>
+  </p>
+</form>

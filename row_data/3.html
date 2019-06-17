@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<title>My Example</title>
+
+<form method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<div>
+<label for="full-name">Name</label> 
+<input type="text" name="customer_name" required id="full-name">
+</div>
+
+<div>
+<label for="phone">Phone</label>
+<input type="tel" name="phone_number" id="phone">
+</div>
+
+<div>
+<label for="email">Email</label>
+<input type="email" name="email_address" id="email">
+</div>
+
+
+	
+<p>
+<label>Pickup Place
+<select id="pickup_place" name="pickup_place">
+<option value="" selected="selected">Select One</option>
+<option value="office" >Taxi Office</option>
+<option value="town_hall" >Town Hall</option>
+<option value="telepathy" >We'll Guess!</option>
+</select>
+</label> 
+</p>
+
+<p>
+
+
+<datalist id="destinations">
+<option value="Airport">
+<option value="Beach">
+<option value="Fred Flinstone's House">
+</datalist>
+</p>
+
+<p>
+<label>Special Instructions
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<p><button>Submit Booking</button></p>
+
+</form>
